@@ -94,51 +94,104 @@
         display: flex;
         flex-direction: column;
         width: 100vw;
-        height: 1000px;
+        height: 600px;
         background-color: #f9fafb;
         gap: 8px;
     }
 
-    .text-top {
+    .text-top-1 {
         display: flex;
-        flex-direction: column;
-        margin: 50px 0px 20px 80px;
+        margin-top: 50px;
+        margin-left: 80px;
     }
 
-    .text-top span {
+    .text-top-1 span {
         font-size: 45px;
         font-weight: 800;
     }
 
-    .image-card1 {
+    .image-card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        gap: 8px;
+        margin-left: 80px;
+    }
+
+    .image-card-container img {
+        display: flex;
+        width: 80%;
+        vertical-align: middle;
+        margin-bottom: 15px;
+    }
+
+    .image-card span {
+        font-size: 20;
+        font-weight: 600;
+    }
+
+    .image-card h3 {
+        font-size: 25;
+        font-weight: 700;
+    }
+
+    .image-card p {
+        font-size: 15;
+    }
+
+    .middle-contents-3 {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 800px;
+        width: 100vw;
+        height: 650px;
+        background-color: #f9fafb;
         gap: 8px;
     }
 
-    .image-card1 img {
-        width: 50%;
-        margin: 60px 50px 0 120px;
-    }
-
-    .image-card2 {
+    .text-top-2 {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 500px;
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+
+    .text-top-2 span {
+        font-size: 45px;
+        font-weight: 800;
+    }
+
+    .image-card2 span {
+        font-size: 20;
+        font-weight: 600;
+    }
+
+    .image-card2 h3 {
+        font-size: 25;
+        font-weight: 700;
+    }
+
+    .image-card2 p {
+        font-size: 15;
+    }
+
+    .middle-contents-4 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 300px;
+        background-color: #f9fafb;
         gap: 8px;
     }
 
-    .image-card2 img {
-        width: 50%;
-        margin: 10px 50px 0 120px;
+    .text-top-3 {
+        display: flex;
+        margin-top: 50px;
+        margin-left: 80px;
     }
 
-    .img-card2-text {
-        margin-left: 120px;
+    .text-top-3 span {
+        font-size: 45px;
+        font-weight: 800;
     }
 
     </style>
@@ -192,33 +245,69 @@
         </div>
     </div>
     <div class="middle-contents-2">
-        <div class="text-top">
+        <div class="text-top-1">
             <span>빠르고 정확한 쿠팡이츠<br><span style="color:#00b0fb">무료배달</span>로 만나보세요!</span>
         </div>
         <div class="image-card-container">
-            <div class="image-card1">
+            <div class="image-card">
                 <img src="https://www.coupangeats.com/wp-content/uploads/2024/03/%EC%9D%B4%EC%B8%A0%EB%8B%B7%EC%BB%B4_1.jpg" alt="">
-                <div class="img-card1-text">
-                    <span style="color: #00b0fb;">쿠팡 와우회원</span><br>매 주문 무료배달</span>
-                    <p>몇 번이든, 주문할 때마다<br>무료로 배달해드려요<p>
-                </div>
+                <span style="color: #00b0fb;">쿠팡 와우회원</span>
+                <h3>매 주문 무료배달</h3>
+                <p>몇 번이든, 주문할 때마다<br>무료로 배달해드려요<p>
+            </div>
 
-            <div class="image-card2">
-                <div class="img-card2-text">
-                    <span style="color: #00b0fb;">금액 제한 없이</span><br>1인분도 OK</span>
-                    <p>매장 설정 최소주문금액만<br>맞추면 돼요<p>
-                </div>
+            <div class="image-card">
+                <span style="color: #00b0fb;">금액 제한 없이</span>
+                <h3>1인분도 OK</h3>
+                <p>매장 설정 최소주문금액만<br>맞추면 돼요<p>
                 <img src="https://www.coupangeats.com/wp-content/uploads/2024/03/%EC%9D%B4%EC%B8%A0%EB%8B%B7%EC%BB%B4_3.jpg" alt="">
             </div>
             
-            <div class="image-card3">
+            <div class="image-card">
                 <img src="https://www.coupangeats.com/wp-content/uploads/2024/03/%EC%9D%B4%EC%B8%A0%EB%8B%B7%EC%BB%B4_2.jpg" alt="">
-                <div class="img-card3-text">
-                    <span style="color: #00b0fb;">쿠팡 와우회원</span><br>매 주문 무료배달</span>
-                    <p>몇 번이든, 주문할 때마다<br>무료로 배달해드려요<p>
-                </div>
+                <span style="color: #00b0fb;">할인 쿠폰 + 즉시할인</span>
+                <h3>중복할인</h3>
+                <p>무료배달은 기본<br>할인까지 높치지 마세요<p>
             </div>
         </div>
     </div>
+
+    <div class="middle-contents-3">
+        <div class="text-top-2">
+            <span>더 좋은 경험을 위한<br><span style="color:#00b0fb">쿠팡이츠</span>의 새로운 시도</span>
+        </div>
+        <div class="image-card-container">
+            <div class="image-card2">
+                <img src="https://www.coupangeats.com/wp-content/uploads/2024/03/%EC%9D%B4%EC%B8%A0%EB%8B%B7%EC%BB%B4_1.jpg" alt="">
+                <span style="color: #00b0fb;">포장 서비스</span>
+                <h3>간편한 포장 & 픽업</h3>
+                <p>가까운 거리는 기다림 없이<br>포장 & 픽업할 수 있어요<p>
+            </div>
+
+            <div class="image-card2">
+                <span style="color: #00b0fb;">쿠팡이츠가 최초</span>
+                <h3>실시간 배달 경로 확인</h3>
+                <p>주문 수락부터 배달까지<br>배달 파트너의 위치를 실시간으로 보여드려요<p>
+                <img src="https://www.coupangeats.com/wp-content/uploads/2024/03/%EC%9D%B4%EC%B8%A0%EB%8B%B7%EC%BB%B4_3.jpg" alt="">
+            </div>
+            
+            <div class="image-card2">
+                <img src="https://www.coupangeats.com/wp-content/uploads/2024/03/%EC%9D%B4%EC%B8%A0%EB%8B%B7%EC%BB%B4_2.jpg" alt="">
+                <span style="color: #00b0fb;">쿠페이 적립까지</span>
+                <h3>쉽고 편한 원터치 결제</h3>
+                <p>매번 복잡한 인증 절차 없이 한 번에<br>안전하고 편리한 원터치 결제를 경험해보세요<p>
+            </div>
+        </div>
+    </div>
+
+    <div class="middle-contents-4">
+        <div class="text-top-3">
+            <span><span style="color:#00b0fb">쿠팡이츠</span>와 함께하는 스토어</span>
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+
 </body>
 </html>
