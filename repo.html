@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>해주세요 랜딩</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6, p, span {
+            margin: 0;
+        }
+
+        .main-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+
+        .icon-mock {
+            width: 16px;
+            height: 16px;
+            background-color: yellowgreen;
+            border-radius: 999px;
+        }
+        
+        .header h1 {
+            font-size: 24;
+            font-weight: 700;
+        }
+
+        .main-animaition-image {
+            width: 200px;
+            height: 241px;
+        }
+
+        .span1 {
+            font-size: 72px;
+            font-weight: 700;
+        }
+
+        .span2 {
+            font-size: 72px;
+            font-weight: 700;
+            color: #ffc933;
+        }
+
+        .span3 {
+            font-size: 16px;
+            color: #72758c;
+        }
+
+        .span4 {
+            font-size: 16px;
+            color: #72758c;
+        }
+
+        .main-section-1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f2f3f5;
+            width: 100vw;
+            padding-bottom: 300px;
+        }
+
+        .main-section-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            width: 100vw;
+            padding-bottom: 300px;
+        }
+
+        .main-section-2 .description {
+            font-size: 24px;
+            color: #252525
+        }
+
+        .main-section-3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100vw;
+            padding-top: 100px;
+        }
+
+        .main-section-3 video {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .main-section-3 .video-frame {
+            position: relative;
+        }
+
+        .main-section-3 .video-frame .container {
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            transform: translate(-50%, 0);
+            text-align: center;
+
+        }
+
+        .main-section-3 .video-frame h1 {
+            font-size: 48px;
+            font-weight: 700;
+        }
+
+        .main-section-3 .video-frame p {
+            font-size: 20px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <header class="header">
+            <h1>해주세요</h1>
+
+            <div class="icon-mock"></div>  
+        </header>
+        <div class="main-section-1">
+
+        </div>
+        <div class="main-section-2">
+            <img src="v2/img/@2/web/img-intro01.png" alt="" class="el-move active">
+            <p class="description">픽업이 필요한데<br>시간이 없을 때에도</p>
+
+            <img src="v2/img/@2/web/img-intro02.png" alt="" class="el-move active">
+            <p class="description">반려동물 케어와 청소가<br>동시에 필요할 때에도</p>
+            
+            <img src="v2/img/@2/web/img-intro03.png" alt="" class="el-move active">
+            <p class="description">단기알바가<br>필요할 때에도</p>
+
+            <img src="v2/img/@2/web/img-intro04.png" alt="" class="el-move active">
+            <p class="description">급하게 장을<br>봐야할 때에도</p>
+        </div>
+
+        <div class="main-section-3">
+            <div class="video-frame">
+                <video src=""></video>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
